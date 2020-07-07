@@ -1,5 +1,6 @@
 @import 'sass/glob-vars';
 
-.App__header {
-  color: $color-primary;
+.App {
+  display: grid;
+  grid-template-columns: [screen-start] 16.5vw [main-start] repeat(8, [col-start] 1fr [col-end]) [main-end] 16.5vw [screen-end];
 }
